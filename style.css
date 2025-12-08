@@ -1,0 +1,35 @@
+body {
+    background-color: #e96ed4;
+}
+
+h1{
+   font-size: 30px;
+   font-family: 'Times New Roman', Times, serif;
+   color: rgb(179, 0, 149);
+
+}
+p{
+   font-size: 20px;
+   font-family: 'Times New Roman', Times, serif;
+   color: rgb(179, 0, 139);
+
+}
+
+.foto1 {
+    position: absolute;
+    top: 120px;    /* distância do topo da tela/altura */
+    left: 20px;    /* posição direita ou esquerda */
+    width: 200px;   /* largura */
+}
+
+.meu-botao {
+    background-color: rgb(116, 18, 116);   /* cor do botão */
+    display: block;
+    margin: 375px auto 0 auto;
+    color: rgb(17, 8, 8);             /* cor do texto */
+    padding: 10px 20px;       /* tamanho interno */
+    border: none;
+    border-radius: 8px;       /* arredondar bordas */
+    font-size: 16px;          /* tamanho da fonte */
+    cursor: pointer;
+}
