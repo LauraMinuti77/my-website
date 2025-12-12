@@ -15,21 +15,19 @@ p{
 
 }
 
-.foto1 {
-    position: absolute;
-    top: 120px;    /* distância do topo da tela/altura */
-    left: 20px;    /* posição direita ou esquerda */
-    width: 200px;   /* largura */
-}
-
 .meu-botao {
     background-color: rgb(116, 18, 116);   /* cor do botão */
     display: block;
     margin: 375px auto 0 auto;
+    margin-top: 50px;
     color: rgb(17, 8, 8);             /* cor do texto */
     padding: 10px 20px;       /* tamanho interno */
     border: none;
     border-radius: 8px;       /* arredondar bordas */
     font-size: 16px;          /* tamanho da fonte */
     cursor: pointer;
+}
+
+.centro {
+     text-align: center;
 }
